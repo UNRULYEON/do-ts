@@ -1,0 +1,23 @@
+{
+  "name": "do-ts",
+  "version": "1.0.0",
+  "description": "DigitalOcean API v2 TypeScript wrapper",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "build:check": "tsc --noEmit"
+  },
+  "keywords": [
+    "digital", "ocean", "digitalocean", "api", "v2", "typescript", "wrapper"
+  ],
+  "repository": "git@github.com:UNRULYEON/do-ts.git",
+  "author": "Amar Kisoensingh <amar@kisoensingh.sh>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/UNRULYEON/do-ts/issues"
+  },
+  "homepage": "https://github.com/UNRULYEON/do-ts#readme"
+}
